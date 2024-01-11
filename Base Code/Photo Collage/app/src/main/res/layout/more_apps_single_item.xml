@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/grid_ad_bg"
+    android:layout_margin="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ad_text_block"
+        android:layout_width="30dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="12dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_ad_text_bg" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_icon"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Title"
+        android:textColor="@color/gnt_black"
+        android:textSize="16dp"
+        android:layout_margin="2dp"
+        />
+
+    <ImageView
+        android:id="@+id/rating_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_ad_rating_icon" />
+
+    <RelativeLayout
+        android:id="@+id/install_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/grid_ad_bg"
+        android:backgroundTint="#000"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="4dp"
+            android:text="Install Now"
+            android:textColor="@color/gnt_white" />
+    </RelativeLayout>
+</RelativeLayout>

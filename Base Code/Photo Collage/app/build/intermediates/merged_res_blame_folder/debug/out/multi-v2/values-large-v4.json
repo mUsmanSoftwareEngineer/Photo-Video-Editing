@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Main Apps Repo\\Base Codes\\finzdev-f_app_col1_collagemaker-15d9f5431eb7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Main Apps Repo\\Base Codes\\finzdev-f_app_col1_collagemaker-15d9f5431eb7\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,109",
+                        "endColumns": "52,53",
+                        "endOffsets": "104,158"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "532,585",
+                        "endColumns": "52,53",
+                        "endOffsets": "580,634"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Muhammad Usman\\.gradle\\caches\\transforms-2\\files-2.1\\9c742bfbfeb23021bdbb4944f87a625d\\appcompat-1.2.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,639,743",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,738,854"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Muhammad Usman\\.gradle\\caches\\transforms-2\\files-2.1\\5c14afd1435e99d331dbbb27b9e40cc8\\material-1.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "13,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "859,981",
+                        "endColumns": "121,133",
+                        "endOffsets": "976,1110"
+                    }
+                }
+            ]
+        }
+    ]
+}

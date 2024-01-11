@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/finz_bg_screen">
+
+        <FrameLayout
+            android:id="@+id/toplayar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/navgradient"
+            android:orientation="horizontal">
+
+      <!--      <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="110dp"
+                android:id="@+id/texttoshow"
+                android:paddingRight="110dp"
+                android:text="Templates"
+                android:visibility="visible"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>-->
+            <ImageView
+
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_share"
+                android:visibility="visible"
+                android:layout_gravity="center_vertical|center"
+                />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@drawable/ripple"
+                android:id="@+id/backtemplate"
+
+                android:gravity="center|start">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/photo_editor_btn_back"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/iv_back"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/iv_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@drawable/ripple"
+                    android:gravity="center"
+                    android:onClick="goBack"
+                    android:text="Back"
+                    android:textColor="@android:color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.371"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.486" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:background="@drawable/ripple"
+                android:id="@+id/savetemplate"
+                android:gravity="center|end">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/photo_editor_ic_downloaded"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/tv_save"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.527" />
+
+                <TextView
+                    android:id="@+id/tv_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/ripple"
+                    android:gravity="center"
+                    android:text="Save"
+                    android:textColor="@android:color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.513" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/containerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/templateLayout"
+            android:layout_below="@+id/toplayar"
+            android:background="@android:color/transparent" />
+
+        <FrameLayout
+            android:id="@+id/templateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/templateView"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:visibility="visible" />
+
+                <HorizontalScrollView
+                    android:id="@+id/hscroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/templateView"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_frames"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_frame" />
+
+                        <ImageView
+                            android:id="@+id/iv_filters"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="12dp"
+                            android:src="@drawable/photo_editor_ic_effect_normal"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_crop"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_crop_w"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_frame"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="11dp"
+                            android:src="@drawable/finz_icon_frames"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_rotate"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="11dp"
+                            android:src="@drawable/finz_icon_image_rotation"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_bgcolor"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="12dp"
+                            android:src="@drawable/finz_icon_background_color"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_change"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="13dp"
+                            android:src="@drawable/finz_icon_image_replace" />
+
+                        <ImageView
+                            android:id="@+id/iv_sticker"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="14dp"
+                            android:src="@drawable/ic_emoji" />
+
+                        <ImageView
+                            android:id="@+id/iv_text"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="14dp"
+                            android:src="@drawable/ic_text" />
+
+                        <ImageView
+                            android:id="@+id/iv_brightness"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="14dp"
+                            android:src="@drawable/finz_icon_brightness" />
+
+                        <ImageView
+                            android:id="@+id/iv_contrast"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="14dp"
+                            android:src="@drawable/ic_adjust_contrast" />
+
+                        <ImageView
+                            android:id="@+id/iv_temperature"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="14dp"
+                            android:src="@drawable/finz_icon_temp" />
+
+                        <ImageView
+                            android:id="@+id/iv_delete"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:padding="13dp"
+                            android:src="@drawable/ic_delete" />
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <FrameLayout
+                    android:id="@+id/adsLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hscroll"
+                    android:background="@android:color/transparent"></FrameLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+    </RelativeLayout>
+
+ <!--   <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/primaryColor"
+        android:src="@drawable/ic_share"
+        android:visibility="gone" />-->
+</FrameLayout>

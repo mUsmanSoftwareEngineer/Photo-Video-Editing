@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="collagestudio.photocollage.collagemaker">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+<!--    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />-->
+    <uses-permission android:name = "android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+
+    <application
+        android:name="collagestudio.photocollage.collagemaker.activity.PhotoCollageApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyAppTheme"
+        android:requestLegacyExternalStorage="true"
+        android:preserveLegacyExternalStorage="true"
+        android:screenOrientation="portrait"
+        tools:ignore="GoogleAppIndexingWarning"
+        >
+        <receiver android:name=".notifications.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.media.action.DISPLAY_NOTIFICATION" />
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="alarm.running"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <!-- Will not be called unless the application explicitly enables it -->
+        <receiver android:name=".notifications.DeviceBootReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="collagestudio.photocollage.collagemaker.activity.SingleEditor"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="collagestudio.photocollage.collagemaker.IntroScreens"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="collagestudio.photocollage.collagemaker.activity.Login"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+
+     <!--   <service android:name="collagestudio.photocollage.collagemaker.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>-->
+
+        <receiver
+            android:name="collagestudio.photocollage.collagemaker.receiver.PackageInstallReceiver"
+            android:enabled="true"
+            android:priority="0">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="collagestudio.photocollage.collagemaker.activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base" />
+        <activity
+            android:name="collagestudio.photocollage.collagemaker.activity.PhotoCollageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:largeHeap="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="collagestudio.photocollage.collagemaker.activity.AddTextItemActivity"
+            android:label="@string/create_text_item"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="collagestudio.photocollage.collagemaker.activity.DownloadedPackageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="collagestudio.photocollage.collagemaker.activity.TemplateDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:largeHeap="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="collagestudio.photocollage.collagemaker.activity.TemplateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:largeHeap="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="collagestudio.photocollage.collagemaker.activity.FrameDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:largeHeap="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="collagestudio.photocollage.collagemaker.activity.SelectPhotoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:largeHeap="true"
+            android:screenOrientation="portrait" />
+        <activity android:name="collagestudio.photocollage.collagemaker.activity.StepActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="collagestudio.photocollage.collagemaker.cross_promotion.MoreAppsActivity"
+            android:theme="@style/full_screen_activity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="collagestudio.photocollage.collagemaker.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ADMOB_APP_ID" />
+    </application>
+
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_item_text">#000000</color>
+    <!-- a good place to try different colors is http://www.materialpalette.com/ -->
+    <!-- 500 color -->
+    <color name="primaryColor">#921116</color>
+    <!-- 700 color -->
+    <color name="primaryColorDark">#DC0A12</color>
+    <!-- A200 other color, so pink...? -->
+    <color name="accentColor">#B06AB3</color>
+    <color name="mainthemcolor">#921116</color>
+    <color name="rippleColor">#ff80ab</color>
+    <color name="accentColor_pressed">#f50057</color>
+    <color name="primaryColorLight">#C8E6C9</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="textColorPrimary">#BF212121</color>
+    <color name="textColorSecondary">#B3727272</color>
+    <color name="windowBackgroundColor">#0f0f0f</color>
+    <color name="navigationBarColor">#0f0f0f</color> <!-- #303f9f -->
+    <color name="nav_toolbar">#921116</color>
+    <color name="text_hint">#A0A0A0</color>
+    <color name="bg_frame">#000000</color>
+    <color name="menu_color">#009531</color>
+    <color name="actionbar_text">#FFFFFF</color>
+    <color name="bg_action_bar">#A4153F</color>
+     <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="border_view_background">#AAAAAA</color>
+    <color name="border_view_foreground">#A6033E</color>
+    <color name="btn_hover">#ffffee</color>
+    <color name="btn_bg">#ffffff</color>
+    <color name="color_chooser_circle_border">#99ffffff</color>
+    <color name="color_chooser_cirlce">#E3B3C5</color>
+    <color name="bottom_bg_view_topbar">#FFF200</color>
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="red">#FF3B00</color>
+    <color name="red_press">#990000</color>
+    <color name="dark_gray">#4C535B</color>
+    <color name="dark_gray_press">#ff7e8a97</color>
+    <color name="slide_menu_bg">#eeeeee</color>
+    <color name="slide_menu_text">#1f1f1f</color>
+    <color name="slide_menu_icon">#6d6d6d</color>
+    <color name="common_text_color">#6d6d6d</color>
+    <color name="common_background_color">#eeeeee</color>
+    <color name="nav_draw_icon">#747d87</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>

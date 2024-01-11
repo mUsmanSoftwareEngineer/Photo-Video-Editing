@@ -1,0 +1,18 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dauroi.com.imageprocessing" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+8
+9    <application
+9-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:4:5-6:54
+10        android:allowBackup="true"
+10-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:5:9-35
+11        android:requestLegacyExternalStorage="true" />
+11-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:6:9-52
+12
+13</manifest>

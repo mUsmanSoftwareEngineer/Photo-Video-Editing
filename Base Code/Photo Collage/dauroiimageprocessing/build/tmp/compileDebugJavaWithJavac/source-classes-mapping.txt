@@ -1,0 +1,217 @@
+dauroi/com/imageprocessing/filter/blend/LightenBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.LightenBlendFilter
+dauroi/com/imageprocessing/filter/blend/DarkenBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.DarkenBlendFilter
+dauroi/com/imageprocessing/filter/colour/MonochromeFilter.java
+ dauroi.com.imageprocessing.filter.colour.MonochromeFilter
+dauroi/com/imageprocessing/filter/blend/SaturationBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.SaturationBlendFilter
+dauroi/com/imageprocessing/filter/colour/TextureSamplingFilter.java
+ dauroi.com.imageprocessing.filter.colour.TextureSamplingFilter
+dauroi/com/imageprocessing/filter/colour/GammaFilter.java
+ dauroi.com.imageprocessing.filter.colour.GammaFilter
+dauroi/com/imageprocessing/filter/blend/HardLightBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.HardLightBlendFilter
+dauroi/com/imageprocessing/filter/colour/HueFilter.java
+ dauroi.com.imageprocessing.filter.colour.HueFilter
+dauroi/com/imageprocessing/filter/colour/LookupFilter.java
+ dauroi.com.imageprocessing.filter.colour.LookupFilter
+dauroi/com/imageprocessing/filter/colour/OneDimenLookupFilter.java
+ dauroi.com.imageprocessing.filter.colour.OneDimenLookupFilter
+dauroi/com/imageprocessing/filter/colour/SepiaFilter.java
+ dauroi.com.imageprocessing.filter.colour.SepiaFilter
+dauroi/com/imageprocessing/ImageProcessor.java
+ dauroi.com.imageprocessing.ImageProcessor
+ dauroi.com.imageprocessing.ImageProcessor$1
+ dauroi.com.imageprocessing.ImageProcessor$LoadImageFileTask
+ dauroi.com.imageprocessing.ImageProcessor$LoadImageTask
+ dauroi.com.imageprocessing.ImageProcessor$LoadImageUriTask
+ dauroi.com.imageprocessing.ImageProcessor$OnPictureSavedListener
+ dauroi.com.imageprocessing.ImageProcessor$ResponseListener
+ dauroi.com.imageprocessing.ImageProcessor$SaveTask
+ dauroi.com.imageprocessing.ImageProcessor$SaveTask$1
+ dauroi.com.imageprocessing.ImageProcessor$SaveTask$1$1
+ dauroi.com.imageprocessing.ImageProcessor$ScaleType
+dauroi/com/imageprocessing/filter/blend/AddBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.AddBlendFilter
+dauroi/com/imageprocessing/filter/blend/DivideBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.DivideBlendFilter
+dauroi/com/imageprocessing/filter/processing/GreenCircleFilter.java
+ dauroi.com.imageprocessing.filter.processing.GreenCircleFilter
+dauroi/com/imageprocessing/filter/ImageFilter.java
+ dauroi.com.imageprocessing.filter.ImageFilter
+ dauroi.com.imageprocessing.filter.ImageFilter$1
+ dauroi.com.imageprocessing.filter.ImageFilter$10
+ dauroi.com.imageprocessing.filter.ImageFilter$2
+ dauroi.com.imageprocessing.filter.ImageFilter$3
+ dauroi.com.imageprocessing.filter.ImageFilter$4
+ dauroi.com.imageprocessing.filter.ImageFilter$5
+ dauroi.com.imageprocessing.filter.ImageFilter$6
+ dauroi.com.imageprocessing.filter.ImageFilter$7
+ dauroi.com.imageprocessing.filter.ImageFilter$8
+ dauroi.com.imageprocessing.filter.ImageFilter$9
+dauroi/com/imageprocessing/filter/blend/LinearBurnBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.LinearBurnBlendFilter
+dauroi/com/imageprocessing/filter/blend/AlphaBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.AlphaBlendFilter
+dauroi/com/imageprocessing/filter/blend/SoftLightBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.SoftLightBlendFilter
+dauroi/com/imageprocessing/filter/colour/WhiteBalanceFilter.java
+ dauroi.com.imageprocessing.filter.colour.WhiteBalanceFilter
+dauroi/com/imageprocessing/filter/processing/RotationFilter.java
+ dauroi.com.imageprocessing.filter.processing.RotationFilter
+dauroi/com/imageprocessing/util/OpenGlUtils.java
+ dauroi.com.imageprocessing.util.OpenGlUtils
+dauroi/com/imageprocessing/util/TextureRotationUtil.java
+ dauroi.com.imageprocessing.util.TextureRotationUtil
+ dauroi.com.imageprocessing.util.TextureRotationUtil$1
+dauroi/com/imageprocessing/filter/colour/BrightnessFilter.java
+ dauroi.com.imageprocessing.filter.colour.BrightnessFilter
+dauroi/com/imageprocessing/filter/blend/SourceOverBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.SourceOverBlendFilter
+dauroi/com/imageprocessing/filter/processing/TransformFilter.java
+ dauroi.com.imageprocessing.filter.processing.TransformFilter
+dauroi/com/imageprocessing/filter/effect/KuwaharaFilter.java
+ dauroi.com.imageprocessing.filter.effect.KuwaharaFilter
+dauroi/com/imageprocessing/filter/processing/TouchPixelFilter.java
+ dauroi.com.imageprocessing.filter.processing.TouchPixelFilter
+dauroi/com/imageprocessing/filter/blend/OverlayBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.OverlayBlendFilter
+dauroi/com/imageprocessing/PixelBuffer.java
+ dauroi.com.imageprocessing.PixelBuffer
+dauroi/com/imageprocessing/filter/processing/CircleSelectiveBlurFilter.java
+ dauroi.com.imageprocessing.filter.processing.CircleSelectiveBlurFilter
+dauroi/com/imageprocessing/filter/effect/EmbossFilter.java
+ dauroi.com.imageprocessing.filter.effect.EmbossFilter
+dauroi/com/imageprocessing/filter/colour/ColorMatrixFilter.java
+ dauroi.com.imageprocessing.filter.colour.ColorMatrixFilter
+dauroi/com/imageprocessing/filter/effect/ToneCurveFilter.java
+ dauroi.com.imageprocessing.filter.effect.ToneCurveFilter
+ dauroi.com.imageprocessing.filter.effect.ToneCurveFilter$1
+ dauroi.com.imageprocessing.filter.effect.ToneCurveFilter$2
+dauroi/com/imageprocessing/filter/blend/ColorBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.ColorBlendFilter
+dauroi/com/imageprocessing/filter/colour/ThreeConvolutionFilter.java
+ dauroi.com.imageprocessing.filter.colour.ThreeConvolutionFilter
+dauroi/com/imageprocessing/filter/processing/GaussianBlurFilter.java
+ dauroi.com.imageprocessing.filter.processing.GaussianBlurFilter
+ dauroi.com.imageprocessing.filter.processing.GaussianBlurFilter$1
+dauroi/com/imageprocessing/filter/blend/ExclusionBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.ExclusionBlendFilter
+dauroi/com/imageprocessing/filter/effect/DirectionalSobelEdgeDetectionFilter.java
+ dauroi.com.imageprocessing.filter.effect.DirectionalSobelEdgeDetectionFilter
+dauroi/com/imageprocessing/filter/processing/LinearSelectiveBlurFilter.java
+ dauroi.com.imageprocessing.filter.processing.LinearSelectiveBlurFilter
+dauroi/com/imageprocessing/Rotation.java
+ dauroi.com.imageprocessing.Rotation
+dauroi/com/imageprocessing/ImageProcessingView.java
+ dauroi.com.imageprocessing.ImageProcessingView
+dauroi/com/imageprocessing/filter/effect/SobelEdgeDetection.java
+ dauroi.com.imageprocessing.filter.effect.SobelEdgeDetection
+dauroi/com/imageprocessing/filter/effect/ToonFilter.java
+ dauroi.com.imageprocessing.filter.effect.ToonFilter
+dauroi/com/imageprocessing/filter/blend/LuminosityBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.LuminosityBlendFilter
+dauroi/com/imageprocessing/filter/effect/SmoothToonFilter.java
+ dauroi.com.imageprocessing.filter.effect.SmoothToonFilter
+dauroi/com/imageprocessing/filter/blend/NormalBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.NormalBlendFilter
+dauroi/com/imageprocessing/filter/colour/OpacityFilter.java
+ dauroi.com.imageprocessing.filter.colour.OpacityFilter
+dauroi/com/imageprocessing/filter/processing/CropFilter.java
+ dauroi.com.imageprocessing.filter.processing.CropFilter
+dauroi/com/imageprocessing/filter/effect/DirectionalNonMaximumSuppressionFilter.java
+ dauroi.com.imageprocessing.filter.effect.DirectionalNonMaximumSuppressionFilter
+dauroi/com/imageprocessing/filter/colour/GrayscaleFilter.java
+ dauroi.com.imageprocessing.filter.colour.GrayscaleFilter
+dauroi/com/imageprocessing/filter/effect/WeakPixelInclusionFilter.java
+ dauroi.com.imageprocessing.filter.effect.WeakPixelInclusionFilter
+dauroi/com/imageprocessing/filter/TwoPassFilter.java
+ dauroi.com.imageprocessing.filter.TwoPassFilter
+dauroi/com/imageprocessing/filter/effect/NonMaximumSuppressionFilter.java
+ dauroi.com.imageprocessing.filter.effect.NonMaximumSuppressionFilter
+dauroi/com/imageprocessing/ImageRenderer.java
+ dauroi.com.imageprocessing.ImageRenderer
+ dauroi.com.imageprocessing.ImageRenderer$1
+ dauroi.com.imageprocessing.ImageRenderer$2
+ dauroi.com.imageprocessing.ImageRenderer$3
+ dauroi.com.imageprocessing.ImageRenderer$4
+ dauroi.com.imageprocessing.ImageRenderer$5
+dauroi/com/imageprocessing/filter/blend/ScreenBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.ScreenBlendFilter
+dauroi/com/imageprocessing/util/ImageUtils.java
+ dauroi.com.imageprocessing.util.ImageUtils
+dauroi/com/imageprocessing/filter/processing/PinchDistortionFilter.java
+ dauroi.com.imageprocessing.filter.processing.PinchDistortionFilter
+dauroi/com/imageprocessing/filter/effect/DilationFilter.java
+ dauroi.com.imageprocessing.filter.effect.DilationFilter
+dauroi/com/imageprocessing/filter/effect/VignetteFilter.java
+ dauroi.com.imageprocessing.filter.effect.VignetteFilter
+dauroi/com/imageprocessing/filter/blend/DestinationOverBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.DestinationOverBlendFilter
+dauroi/com/imageprocessing/filter/colour/HighlightShadowFilter.java
+ dauroi.com.imageprocessing.filter.colour.HighlightShadowFilter
+dauroi/com/imageprocessing/filter/blend/SubtractBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.SubtractBlendFilter
+dauroi/com/imageprocessing/filter/processing/ClassicNoise3dFilter.java
+ dauroi.com.imageprocessing.filter.processing.ClassicNoise3dFilter
+dauroi/com/imageprocessing/filter/TwoInputFilter.java
+ dauroi.com.imageprocessing.filter.TwoInputFilter
+ dauroi.com.imageprocessing.filter.TwoInputFilter$1
+dauroi/com/imageprocessing/filter/blend/MultiplyBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.MultiplyBlendFilter
+dauroi/com/imageprocessing/filter/colour/RGBFilter.java
+ dauroi.com.imageprocessing.filter.colour.RGBFilter
+dauroi/com/imageprocessing/filter/TwoPassTextureSamplingFilter.java
+ dauroi.com.imageprocessing.filter.TwoPassTextureSamplingFilter
+dauroi/com/imageprocessing/filter/effect/HalftoneFilter.java
+ dauroi.com.imageprocessing.filter.effect.HalftoneFilter
+dauroi/com/imageprocessing/filter/ImageFilterGroup.java
+ dauroi.com.imageprocessing.filter.ImageFilterGroup
+dauroi/com/imageprocessing/filter/colour/SaturationFilter.java
+ dauroi.com.imageprocessing.filter.colour.SaturationFilter
+dauroi/com/imageprocessing/filter/blend/DifferenceBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.DifferenceBlendFilter
+dauroi/com/imageprocessing/filter/colour/ContrastFilter.java
+ dauroi.com.imageprocessing.filter.colour.ContrastFilter
+dauroi/com/imageprocessing/filter/processing/FastBlurFilter.java
+ dauroi.com.imageprocessing.filter.processing.FastBlurFilter
+dauroi/com/imageprocessing/BuildConfig.java
+ dauroi.com.imageprocessing.BuildConfig
+dauroi/com/imageprocessing/filter/blend/ChromaKeyBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.ChromaKeyBlendFilter
+dauroi/com/imageprocessing/filter/colour/TwoInputFilter.java
+ dauroi.com.imageprocessing.filter.colour.TwoInputFilter
+ dauroi.com.imageprocessing.filter.colour.TwoInputFilter$1
+dauroi/com/imageprocessing/filter/processing/SharpenFilter.java
+ dauroi.com.imageprocessing.filter.processing.SharpenFilter
+dauroi/com/imageprocessing/filter/blend/ColorDodgeBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.ColorDodgeBlendFilter
+dauroi/com/imageprocessing/filter/blend/ColorBurnBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.ColorBurnBlendFilter
+dauroi/com/imageprocessing/filter/blend/DissolveBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.DissolveBlendFilter
+dauroi/com/imageprocessing/filter/colour/ColorInvertFilter.java
+ dauroi.com.imageprocessing.filter.colour.ColorInvertFilter
+dauroi/com/imageprocessing/filter/blend/HueBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.HueBlendFilter
+dauroi/com/imageprocessing/filter/colour/FragCoordCircleFilter.java
+ dauroi.com.imageprocessing.filter.colour.FragCoordCircleFilter
+dauroi/com/imageprocessing/filter/processing/TouchBlurFilter.java
+ dauroi.com.imageprocessing.filter.processing.TouchBlurFilter
+dauroi/com/imageprocessing/filter/effect/PixelationFilter.java
+ dauroi.com.imageprocessing.filter.effect.PixelationFilter
+dauroi/com/imageprocessing/filter/effect/SketchFilter.java
+ dauroi.com.imageprocessing.filter.effect.SketchFilter
+dauroi/com/imageprocessing/filter/processing/FlipFilter.java
+ dauroi.com.imageprocessing.filter.processing.FlipFilter
+dauroi/com/imageprocessing/filter/colour/ChannelLookupFilter.java
+ dauroi.com.imageprocessing.filter.colour.ChannelLookupFilter
+dauroi/com/imageprocessing/filter/blend/MixBlendFilter.java
+ dauroi.com.imageprocessing.filter.blend.MixBlendFilter
+dauroi/com/imageprocessing/filter/processing/HazeFilter.java
+ dauroi.com.imageprocessing.filter.processing.HazeFilter
+dauroi/com/imageprocessing/filter/effect/PosterizeFilter.java
+ dauroi.com.imageprocessing.filter.effect.PosterizeFilter
+dauroi/com/imageprocessing/filter/effect/ExposureFilter.java
+ dauroi.com.imageprocessing.filter.effect.ExposureFilter

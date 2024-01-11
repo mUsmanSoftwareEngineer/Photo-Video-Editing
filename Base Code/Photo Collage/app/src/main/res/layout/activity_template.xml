@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gnt_white"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/toplayar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/navgradient">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Select template"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="start"
+                android:gravity="center|start"
+                android:background="@drawable/ripple"
+                tools:ignore="RtlCompat">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/iv_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Back"
+                        android:gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+
+                        android:textColor="@android:color/white"
+                        android:onClick="goBack" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="end"
+                android:gravity="center|end"
+                android:id="@+id/filter_main"
+
+                android:background="@drawable/ripple">
+
+
+                <TextView
+                    android:id="@+id/frameCountView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/all"
+                    android:layout_marginEnd="@dimen/_5sdp"
+
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:textColor="@android:color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:drawableRight="@drawable/ic_down_white_arrow" />
+
+           <!--     <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/ic_down_white_arrow"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/frameCountView"
+                    app:layout_constraintTop_toTopOf="parent" />-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </FrameLayout>
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginBottom="56dp">
+<!--           android:background="@color/photo_editor_honeycombish_blue"-->
+
+           <TextView
+               android:id="@+id/texttt"
+               android:layout_width="@dimen/_45sdp"
+               android:layout_height="match_parent"
+               android:textSize="@dimen/_12sdp"
+               android:textColor="#000000"
+               android:layout_gravity="start"/>
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/recycler_view"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scrollbars="vertical" />
+       </FrameLayout>
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/adsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/transparent" />
+</FrameLayout>
+

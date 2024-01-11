@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Main Apps Repo\\Base Codes\\finzdev-f_app_col1_collagemaker-15d9f5431eb7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Main Apps Repo\\Base Codes\\finzdev-f_app_col1_collagemaker-15d9f5431eb7\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "19,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "663,619",
+                        "endColumns": "44,43",
+                        "endOffsets": "703,658"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,100",
+                        "endColumns": "44,43",
+                        "endOffsets": "95,139"
+                    }
+                }
+            ]
+        }
+    ]
+}

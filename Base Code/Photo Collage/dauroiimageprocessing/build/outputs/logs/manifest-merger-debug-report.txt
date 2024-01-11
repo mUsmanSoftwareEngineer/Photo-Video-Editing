@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:2:5-41
+		INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+		INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:4:5-6:54
+	android:requestLegacyExternalStorage
+		ADDED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:6:9-52
+	android:allowBackup
+		ADDED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml:5:9-35
+uses-sdk
+INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+		ADDED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+		INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+		ADDED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml
+		INJECTED from D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\dauroiimageprocessing\src\main\AndroidManifest.xml

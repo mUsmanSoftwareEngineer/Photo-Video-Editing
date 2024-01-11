@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/maindialogueFordisconnect"
+    android:background="@color/windowBackgroundColor">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor"
+        app:cardBackgroundColor="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--   <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">-->
+
+
+
+            <TextView
+                android:id="@+id/willdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/will"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/opensans_semibold"
+
+                android:text="Are you sure you want to close the App"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_22sdp" />
+
+            <!--             <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginTop="@dimen/_20sdp"
+                             android:orientation="vertical">-->
+       <!--     <com.google.android.ads.nativetemplates.TemplateView
+                android:id="@+id/my_template"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/willdo"
+                app:gnt_template_type="@layout/gnt_medium_template_view" />-->
+<!--            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/loadingad"
+                android:text="Loading Ad..."
+                android:textSize="@dimen/_22sdp"
+                android:textColor="@color/white"
+                android:background="@drawable/bgregion"
+                android:gravity="center_vertical|center_horizontal"/>-->
+
+  <!--          <com.google.android.ads.nativetemplates.TemplateView
+                android:id="@+id/my_template_inad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_below="@+id/willdo"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                app:gnt_template_type="@layout/gnt_medium_template_view" />-->
+            <LinearLayout
+                android:id="@+id/download_completed_adHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_below="@+id/willdo"
+
+                android:orientation="vertical">
+
+                <collagestudio.photocollage.collagemaker.google_admob.TemplateView
+                    android:id="@+id/adview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:gnt_template_type="@layout/gnt_medium_template_view" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/download_completed_adHolder"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/close"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white"
+                    android:gravity="center"
+                    android:text="Close"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/opensans_semibold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/opensans_semibold"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/white"
+                    android:gravity="center"
+                    android:text="Cancel"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_14sdp"
+
+                    />
+            </LinearLayout>
+            <!--            </LinearLayout>-->
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

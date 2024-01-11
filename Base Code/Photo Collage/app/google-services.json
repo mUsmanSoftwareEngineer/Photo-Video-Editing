@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "357861191945",
+    "project_id": "collage-maker-30c63",
+    "storage_bucket": "collage-maker-30c63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357861191945:android:30502139a59f29cab823d8",
+        "android_client_info": {
+          "package_name": "collagestudio.photocollage.collagemaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357861191945-7o72hmh3utqnnb2qah0g400u5d1knprf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQmGcLYYhPffp7XYPNHiGgzVLYPlGYHiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357861191945-7o72hmh3utqnnb2qah0g400u5d1knprf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

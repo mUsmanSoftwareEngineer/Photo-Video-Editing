@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "989162314606",
+    "firebase_url": "https://android-photo-studio.firebaseio.com",
+    "project_id": "android-photo-studio",
+    "storage_bucket": "android-photo-studio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989162314606:android:eaa88dd4e15db4a9",
+        "android_client_info": {
+          "package_name": "com.abc.photocollage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989162314606-gl2t3s7if6tdne4u2piideb65c10tf1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrDkAEThCE5s_J8u8Q53ADkecZjndJdCA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

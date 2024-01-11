@@ -1,0 +1,2 @@
+include ':NativeTemplatesAndroid-1.0.0'
+include ':dauroiimageprocessing', ':photoEditor', ':app'

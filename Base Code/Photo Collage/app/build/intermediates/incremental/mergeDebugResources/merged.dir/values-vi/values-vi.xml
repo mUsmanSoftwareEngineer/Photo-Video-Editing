@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Chỉ đường về nhà"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Di chuyển lên"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Tùy chọn khác"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"TẮT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"BẬT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Truy vấn tìm kiếm"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Truy cập &lt;b>facebook.com/device&lt;/b> và nhập mã được hiển thị bên trên.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Lỗi không mong muốn khi tải hình ảnh xuống.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">Đăng nhập chế độ xem web yêu cầu quyền INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">Lỗi AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Đã thích</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Thích</string>
+    <string gender="unknown" name="com_facebook_loading">Đang tải…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Hủy</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Đăng nhập</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Tiếp tục với Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Đăng nhập bằng Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Đăng xuất</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Đăng xuất</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Đã đăng nhập với tên: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Đã đăng nhập bằng Facebook</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Gửi</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Chia sẻ</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Để kết nối tài khoản của bạn, hãy mở ứng dụng Facebook trên thiết bị di động và kiểm tra thông báo.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- HOẶC -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Không phải bạn?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Tiếp tục dưới tên %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Xác nhận đăng nhập</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Bạn nắm quyền kiểm soát - chọn thông tin bạn muốn chia sẻ với ứng dụng.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Bật"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Bật dịch vụ của Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Cài đặt"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Thiết bị của bạn bị thiếu dịch vụ này."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Cài đặt dịch vụ của Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Phạm vi cung cấp các dịch vụ của Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Lỗi dịch vụ của Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> đang gặp sự cố với các dịch vụ của Google Play. Hãy thử lại."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có các dịch vụ của Google Play. Thiết bị của bạn không hỗ trợ các dịch vụ này."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Cập nhật"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy trừ khi bạn cập nhật Dịch vụ của Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Cập nhật dịch vụ của Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Dịch vụ này hiện đang cập nhật."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Cần phiên bản mới của dịch vụ Google Play. Dịch vụ sẽ sớm tự động cập nhật."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Mở trên điện thoại"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Đăng nhập"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Đăng nhập bằng Google"</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"Nhấn để mở quảng cáo"</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"Xem quảng cáo đã lưu khi bạn không có kết nối mạng"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"OK"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Bạn sẽ nhận được thông báo kèm theo đường liên kết khi có kết nối mạng trở lại"</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Để sau"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"Chúng tôi sẽ gửi thông báo cho bạn kèm theo đường liên kết đến trang web của nhà quảng cáo."</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"Mở quảng cáo khi bạn có kết nối mạng trở lại."</string>
+    <string name="photo_editor">Sửa ảnh</string>
+    <string name="photo_editor_action_settings">Thiết lập</string>
+    <string name="photo_editor_album">Album</string>
+    <string name="photo_editor_app_name">Chỉnh sửa ảnh</string>
+    <string name="photo_editor_apply">Áp dụng</string>
+    <string name="photo_editor_award_remove_ads">Khi bạn mua ít nhất 2 mặt hàng, sẽ không còn quảng cáo.</string>
+    <string name="photo_editor_back">Trước</string>
+    <string name="photo_editor_blur">Làm mờ</string>
+    <string name="photo_editor_brightness">Sáng</string>
+    <string name="photo_editor_camera">Camera</string>
+    <string name="photo_editor_camera_not_found">Không tìm thấy máy ảnh</string>
+    <string name="photo_editor_cancel">Thôi</string>
+    <string name="photo_editor_cancelled">Đã hủy</string>
+    <string name="photo_editor_center">Trung tâm</string>
+    <string name="photo_editor_clear">Dọn dẹp</string>
+    <string name="photo_editor_color">Màu</string>
+    <string name="photo_editor_confirm_delete_image">Bạn có chắc là muốn xóa bức ảnh này?</string>
+    <string name="photo_editor_confirm_uninstall">Bạn có chắc là muốn gỡ bỏ?</string>
+    <string name="photo_editor_constrast">Tương phản</string>
+    <string name="photo_editor_crop">Cắt</string>
+    <string name="photo_editor_custom">Tùy biến</string>
+    <string name="photo_editor_delete">Xóa</string>
+    <string name="photo_editor_dialog_color_picker">Lấy màu sắc</string>
+    <string name="photo_editor_done">Xong</string>
+    <string name="photo_editor_downloading">Đang tải</string>
+    <string name="photo_editor_draw">Vẽ</string>
+    <string name="photo_editor_edit">Chỉnh sửa</string>
+    <string name="photo_editor_effect">Hiệu ứng</string>
+    <string name="photo_editor_emboss">Làm nổi</string>
+    <string name="photo_editor_enter_bottom_caption">Nhập chú thích vào ô dưới</string>
+    <string name="photo_editor_enter_center_caption">Nhập chú thích vào ô giữa</string>
+    <string name="photo_editor_enter_top_caption">Nhập chú thích vào ô đầu</string>
+    <string name="photo_editor_erase">Tẩy xóa</string>
+    <string name="photo_editor_error">Lỗi</string>
+    <string name="photo_editor_facebook_share">Facebook Share</string>
+    <string name="photo_editor_facebook_share_content">You can make a lot of amazing photos with Kool Cropper. Let\'s install.</string>
+    <string name="photo_editor_facebook_share_title">Sửa ảnh</string>
+    <string name="photo_editor_focus">Tập trung</string>
+    <string name="photo_editor_frame">Khung</string>
+    <string name="photo_editor_free">Miễn phí</string>
+    <string name="photo_editor_guide_drag_focus_area">Sử dụng ngón tay để kéo thả vùng tập trung.</string>
+    <string name="photo_editor_guide_drag_image">Sử dụng ngón tay để kéo hình ảnh.</string>
+    <string name="photo_editor_guide_rotate_image">Sử dụng ngón tay để quay hình ảnh.</string>
+    <string name="photo_editor_guide_zoom_focus_area">Sử dụng hai ngón tay để phóng to hoặc thu nhỏ vùng tập trung.</string>
+    <string name="photo_editor_guide_zoom_image">Sử dụng hai ngón tay để phóng to hoặc thu nhỏ hình ảnh.</string>
+    <string name="photo_editor_home">Trang chủ</string>
+    <string name="photo_editor_horizontal">Ngang</string>
+    <string name="photo_editor_item">Mặt hàng</string>
+    <string name="photo_editor_left">Trái</string>
+    <string name="photo_editor_linear">Tuyến tính</string>
+    <string name="photo_editor_meme">Meme</string>
+    <string name="photo_editor_no_focus">Không tập trung</string>
+    <string name="photo_editor_normal">Chuẩn</string>
+    <string name="photo_editor_ok">OK</string>
+    <string name="photo_editor_original">Gốc</string>
+    <string name="photo_editor_permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="photo_editor_photo_library">Thư viện ảnh</string>
+    <string name="photo_editor_posted">Đã đăng</string>
+    <string name="photo_editor_press_color_to_apply">Nhấn trên nút Màu Sắc để áp dụng</string>
+    <string name="photo_editor_radial">Xuyên tâm</string>
+    <string name="photo_editor_rate_app">Cho chúng tôi 5 sao.</string>
+    <string name="photo_editor_resize">Kích cỡ</string>
+    <string name="photo_editor_right">Phải</string>
+    <string name="photo_editor_rotate">Quay</string>
+    <string name="photo_editor_saturation">Bão hòa</string>
+    <string name="photo_editor_select">Lựa chọn</string>
+    <string name="photo_editor_shade">Bóng</string>
+    <string name="photo_editor_share">Chia sẻ</string>
+    <string name="photo_editor_share_image">Chia sẻ hình ảnh</string>
+    <string name="photo_editor_sharpness">Sắc nét</string>
+    <string name="photo_editor_size">Kích cỡ</string>
+    <string name="photo_editor_square">Vuông</string>
+    <string name="photo_editor_src_a_top">SrcATop</string>
+    <string name="photo_editor_store_items">Gian hàng</string>
+    <string name="photo_editor_success">Thành công</string>
+    <string name="photo_editor_successfully_posted_post">Đăng thành công.</string>
+    <string name="photo_editor_take_photo_help">Chạm vào bất cứ chỗ nào để chụp ảnh</string>
+    <string name="photo_editor_text">Văn bản</string>
+    <string name="photo_editor_text_so_long">Đoạn văn của bạn quá dài.</string>
+    <string name="photo_editor_touch_blur">Cảm ứng mờ</string>
+    <string name="photo_editor_uninstall">Gỡ</string>
+    <string name="photo_editor_used">Đã sử dụng</string>
+    <string name="photo_editor_vertical">Dọc</string>
+    <string name="photo_editor_view_image">Hiển thị hình ảnh</string>
+    <string name="photo_editor_waring_out_of_memory">Không đủ bộ nhớ.!!!</string>
+    <string name="photo_editor_warmth">Ấm</string>
+    <string name="photo_editor_you_must_install_facebook_app">Bạn phải cài đặt chương trình Facebook</string>
+    <string msgid="368094699078615544" name="s1">"Lưu hình ảnh"</string>
+    <string msgid="4550830452390689489" name="s2">"Cho phép Quảng cáo lưu trữ hình ảnh trong thư viện Ảnh?"</string>
+    <string msgid="2435407834265420668" name="s3">"Chấp nhận"</string>
+    <string msgid="9167523597401839819" name="s4">"Từ chối"</string>
+    <string msgid="1566682516266724847" name="s5">"Tạo sự kiện lịch"</string>
+    <string msgid="5996672174517137271" name="s6">"Cho phép Quảng cáo tạo sự kiện lịch?"</string>
+    <string msgid="7163549807207034258" name="s7">"Quảng cáo thử nghiệm"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Tìm kiếm"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

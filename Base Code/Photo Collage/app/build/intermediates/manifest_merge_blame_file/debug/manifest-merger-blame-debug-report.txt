@@ -1,0 +1,894 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="collagestudio.photocollage.collagemaker"
+4    android:versionCode="13"
+5    android:versionName="1.1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:6:5-11:40
+12        android:anyDensity="true"
+12-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:7:9-34
+13        android:largeScreens="true"
+13-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:8:9-36
+14        android:normalScreens="true"
+14-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:9:9-37
+15        android:smallScreens="true"
+15-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:10:9-36
+16        android:xlargeScreens="true" />
+16-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:11:9-37
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:13:5-67
+18-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:13:22-64
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:14:5-81
+19-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:15:5-80
+20-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:15:22-77
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:16:5-65
+21-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:16:22-62
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:17:5-68
+22-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:17:22-65
+23
+24    <uses-feature android:name="android.hardware.camera" />
+24-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:18:5-60
+24-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:18:19-57
+25
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:19:5-66
+26-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:19:22-63
+27    <!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /> -->
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:21:5-83
+28-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:21:22-80
+29
+30    <uses-feature android:name="android.hardware.camera.autofocus" />
+30-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:22:5-70
+30-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:22:19-67
+31
+32    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+32-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:23:5-79
+32-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:23:22-77
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Android package visibility setting -->
+33-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+33-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+34    <queries>
+34-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:27:5-43:15
+35
+36        <!-- For browser content -->
+37        <intent>
+37-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:30:9-36:18
+38            <action android:name="android.intent.action.VIEW" />
+38-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:17-69
+38-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:25-66
+39
+40            <category android:name="android.intent.category.BROWSABLE" />
+40-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:17-78
+40-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:27-75
+41
+42            <data android:scheme="https" />
+42-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:85:17-50
+42-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:85:23-47
+43        </intent>
+44        <!-- End of browser content -->
+45        <!-- For CustomTabsService -->
+46        <intent>
+46-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:39:9-41:18
+47            <action android:name="android.support.customtabs.action.CustomTabsService" />
+47-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:40:13-90
+47-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:40:21-87
+48        </intent>
+49        <!-- End of CustomTabsService -->
+50    </queries>
+51
+52    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+52-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+52-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+53    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+53-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+53-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+54
+55    <application
+55-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:25:5-150:19
+56        android:name="collagestudio.photocollage.collagemaker.activity.PhotoCollageApp"
+56-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:26:9-88
+57        android:allowBackup="true"
+57-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:27:9-35
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.3.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\6ea4ddcd7795e3af97fc919854c1ffc1\core-1.3.1\AndroidManifest.xml:24:18-86
+59        android:debuggable="true"
+60        android:hardwareAccelerated="true"
+60-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:28:9-43
+61        android:icon="@mipmap/ic_launcher"
+61-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:30:9-43
+62        android:label="@string/app_name"
+62-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:31:9-41
+63        android:largeHeap="true"
+63-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:29:9-33
+64        android:preserveLegacyExternalStorage="true"
+64-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:34:9-53
+65        android:requestLegacyExternalStorage="true"
+65-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:33:9-52
+66        android:screenOrientation="portrait"
+66-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:35:9-45
+67        android:supportsRtl="true"
+67-->[com.facebook.android:facebook-login:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\38d584db3043a73a8d27e6122366bfda\jetified-facebook-login-5.15.3\AndroidManifest.xml:28:18-44
+68        android:testOnly="true"
+69        android:theme="@style/Theme.MyAppTheme" >
+69-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:32:9-48
+70        <receiver android:name="collagestudio.photocollage.collagemaker.notifications.AlarmReceiver" >
+70-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:38:9-45:20
+70-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:38:19-62
+71            <intent-filter>
+71-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:39:13-44:29
+72                <action android:name="android.media.action.DISPLAY_NOTIFICATION" />
+72-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:40:17-84
+72-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:40:25-81
+73                <action android:name="android.intent.action.BOOT_COMPLETED" />
+73-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:41:17-78
+73-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:41:25-76
+74                <action android:name="alarm.running" />
+74-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:42:17-55
+74-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:42:25-53
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:43:17-76
+76-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:43:27-73
+77            </intent-filter>
+78        </receiver>
+79        <!-- Will not be called unless the application explicitly enables it -->
+80        <receiver
+80-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:47:9-52:20
+81            android:name="collagestudio.photocollage.collagemaker.notifications.DeviceBootReceiver"
+81-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:47:19-67
+82            android:enabled="false" >
+82-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:48:13-36
+83            <intent-filter>
+83-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:49:13-51:29
+84                <action android:name="android.intent.action.BOOT_COMPLETED" />
+84-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:41:17-78
+84-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:41:25-76
+85            </intent-filter>
+86        </receiver>
+87
+88        <activity
+88-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:53:9-54:61
+89            android:name="collagestudio.photocollage.collagemaker.activity.SingleEditor"
+89-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:53:19-95
+90            android:screenOrientation="portrait" />
+90-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:54:13-49
+91        <activity
+91-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:55:9-58:20
+92            android:name="collagestudio.photocollage.collagemaker.IntroScreens"
+92-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:55:19-86
+93            android:screenOrientation="portrait" >
+93-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:56:13-49
+94        </activity>
+95        <activity
+95-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:59:9-60:51
+96            android:name="collagestudio.photocollage.collagemaker.activity.Login"
+96-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:59:19-88
+97            android:screenOrientation="portrait" />
+97-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:60:13-49
+98
+99        <meta-data
+99-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:62:9-64:35
+100            android:name="android.max_aspect"
+100-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:63:13-46
+101            android:value="2.1" />
+101-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:64:13-32
+102
+103        <!--
+104        <service android:name="collagestudio.photocollage.collagemaker.service.MyFirebaseMessagingService">
+105            <intent-filter>
+106                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+107            </intent-filter>
+108        </service>
+109        <service android:name=".service.MyFirebaseInstanceIDService">
+110            <intent-filter>
+111                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+112            </intent-filter>
+113        </service>
+114        -->
+115
+116        <receiver
+116-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:77:9-87:20
+117            android:name="collagestudio.photocollage.collagemaker.receiver.PackageInstallReceiver"
+117-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:78:13-99
+118            android:enabled="true"
+118-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:79:13-35
+119            android:priority="0" >
+119-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:80:13-33
+120            <intent-filter>
+120-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:81:13-86:29
+121                <action android:name="android.intent.action.PACKAGE_ADDED" />
+121-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:82:17-78
+121-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:82:25-75
+122                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+122-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:83:17-80
+122-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:83:25-77
+123
+124                <data android:scheme="package" />
+124-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:85:17-50
+124-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:85:23-47
+125            </intent-filter>
+126        </receiver>
+127
+128        <activity
+128-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:89:9-94:52
+129            android:name="collagestudio.photocollage.collagemaker.activity.MainActivity"
+129-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:90:13-89
+130            android:configChanges="orientation|keyboardHidden|screenSize"
+130-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:91:13-74
+131            android:label="@string/app_name"
+131-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:92:13-45
+132            android:screenOrientation="portrait"
+132-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:93:13-49
+133            android:theme="@style/AppTheme.Base" />
+133-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:94:13-49
+134        <activity
+134-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:95:9-100:52
+135            android:name="collagestudio.photocollage.collagemaker.activity.PhotoCollageActivity"
+135-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:96:13-97
+136            android:configChanges="orientation|keyboardHidden|screenSize"
+136-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:97:13-74
+137            android:hardwareAccelerated="true"
+137-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:98:13-47
+138            android:largeHeap="true"
+138-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:99:13-37
+139            android:screenOrientation="portrait" />
+139-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:100:13-49
+140        <activity
+140-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:101:9-104:52
+141            android:name="collagestudio.photocollage.collagemaker.activity.AddTextItemActivity"
+141-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:102:13-96
+142            android:label="@string/create_text_item"
+142-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:103:13-53
+143            android:screenOrientation="portrait" />
+143-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:104:13-49
+144        <activity
+144-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:105:9-108:52
+145            android:name="collagestudio.photocollage.collagemaker.activity.DownloadedPackageActivity"
+145-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:106:13-102
+146            android:configChanges="orientation|keyboardHidden|screenSize"
+146-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:107:13-74
+147            android:screenOrientation="portrait" />
+147-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:108:13-49
+148        <activity
+148-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:109:9-113:52
+149            android:name="collagestudio.photocollage.collagemaker.activity.TemplateDetailActivity"
+149-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:110:13-99
+150            android:configChanges="orientation|keyboardHidden|screenSize"
+150-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:111:13-74
+151            android:largeHeap="true"
+151-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:112:13-37
+152            android:screenOrientation="portrait" />
+152-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:113:13-49
+153        <activity
+153-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:114:9-118:52
+154            android:name="collagestudio.photocollage.collagemaker.activity.TemplateActivity"
+154-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:115:13-93
+155            android:configChanges="orientation|keyboardHidden|screenSize"
+155-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:116:13-74
+156            android:largeHeap="true"
+156-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:117:13-37
+157            android:screenOrientation="portrait" />
+157-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:118:13-49
+158        <activity
+158-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:119:9-123:52
+159            android:name="collagestudio.photocollage.collagemaker.activity.FrameDetailActivity"
+159-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:120:13-96
+160            android:configChanges="orientation|keyboardHidden|screenSize"
+160-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:121:13-74
+161            android:largeHeap="true"
+161-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:122:13-37
+162            android:screenOrientation="portrait" />
+162-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:123:13-49
+163        <activity
+163-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:124:9-128:52
+164            android:name="collagestudio.photocollage.collagemaker.activity.SelectPhotoActivity"
+164-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:125:13-96
+165            android:configChanges="orientation|keyboardHidden|screenSize"
+165-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:126:13-74
+166            android:largeHeap="true"
+166-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:127:13-37
+167            android:screenOrientation="portrait" />
+167-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:128:13-49
+168        <activity
+168-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:129:9-132:20
+169            android:name="collagestudio.photocollage.collagemaker.activity.StepActivity"
+169-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:129:19-95
+170            android:screenOrientation="portrait" >
+170-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:130:13-49
+171        </activity>
+172        <activity
+172-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:133:9-137:20
+173            android:name="collagestudio.photocollage.collagemaker.cross_promotion.MoreAppsActivity"
+173-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:133:19-106
+174            android:screenOrientation="portrait"
+174-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:135:13-49
+175            android:theme="@style/full_screen_activity" >
+175-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:134:13-56
+176        </activity>
+177        <activity
+177-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:138:9-145:20
+178            android:name="collagestudio.photocollage.collagemaker.activity.SplashActivity"
+178-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:138:19-97
+179            android:screenOrientation="portrait" >
+179-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:139:13-49
+180            <intent-filter>
+180-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:140:13-144:29
+181                <action android:name="android.intent.action.MAIN" />
+181-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:141:17-69
+181-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:141:25-66
+182
+183                <category android:name="android.intent.category.LAUNCHER" />
+183-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:143:17-77
+183-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:143:27-74
+184            </intent-filter>
+185        </activity>
+186
+187        <meta-data
+187-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:147:9-149:52
+188            android:name="com.google.android.gms.ads.APPLICATION_ID"
+188-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:148:13-69
+189            android:value="@string/ADMOB_APP_ID" />
+189-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:149:13-49
+190
+191        <activity
+191-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-22:20
+192            android:name="dauroi.photoeditor.ui.activity.StoreActivity"
+192-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-72
+193            android:configChanges="orientation|keyboardHidden|screenSize"
+193-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+194            android:label="@string/photo_editor_store_items"
+194-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-61
+195            android:screenOrientation="portrait" >
+195-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-49
+196        </activity>
+197        <activity
+197-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-28:20
+198            android:name="dauroi.photoeditor.ui.activity.CameraActivity"
+198-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-73
+199            android:configChanges="orientation|keyboardHidden|screenSize"
+199-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-74
+200            android:label="@string/photo_editor_camera"
+200-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-56
+201            android:screenOrientation="landscape" >
+201-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-50
+202        </activity>
+203        <activity
+203-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-34:20
+204            android:name="dauroi.photoeditor.ui.activity.StoreItemDetailActivity"
+204-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-82
+205            android:configChanges="orientation|keyboardHidden|screenSize"
+205-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-74
+206            android:label="@string/photo_editor_store_items"
+206-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-61
+207            android:screenOrientation="portrait" >
+207-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-49
+208        </activity>
+209        <activity
+209-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-41:20
+210            android:name="dauroi.photoeditor.ui.activity.ImageProcessingActivity"
+210-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-82
+211            android:configChanges="orientation|keyboardHidden|screenSize"
+211-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-74
+212            android:label="@string/photo_editor_app_name"
+212-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-58
+213            android:largeHeap="true"
+213-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-37
+214            android:screenOrientation="portrait" >
+214-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-49
+215        </activity>
+216        <activity
+216-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-47:20
+217            android:name="dauroi.photoeditor.ui.activity.ViewImageActivity"
+217-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-76
+218            android:configChanges="orientation|keyboardHidden|screenSize"
+218-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-74
+219            android:label="@string/photo_editor_app_name"
+219-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-58
+220            android:screenOrientation="portrait" >
+220-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-49
+221        </activity>
+222
+223        <receiver android:name="dauroi.photoeditor.receiver.NetworkStateReceiver" >
+223-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:9-53:20
+223-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:19-82
+224            <intent-filter>
+224-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-52:29
+225                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+225-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:17-79
+225-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:25-76
+226            </intent-filter>
+227        </receiver>
+228
+229        <activity
+229-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
+230            android:name="com.facebook.FacebookActivity"
+230-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:31:13-57
+231            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+231-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:32:13-96
+232            android:theme="@style/com_facebook_activity_theme" />
+232-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+233        <activity android:name="com.facebook.CustomTabMainActivity" />
+233-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+233-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+234        <activity
+234-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:35:9-49:20
+235            android:name="com.facebook.CustomTabActivity"
+235-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:36:13-58
+236            android:exported="true" >
+236-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:37:13-36
+237            <intent-filter>
+237-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+238                <action android:name="android.intent.action.VIEW" />
+238-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:17-69
+238-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:25-66
+239
+240                <category android:name="android.intent.category.DEFAULT" />
+240-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:43:17-76
+240-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:43:27-73
+241                <category android:name="android.intent.category.BROWSABLE" />
+241-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:17-78
+241-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\0e971f9ed7a8105dd6723d78bfdc485b\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:27-75
+242
+243                <data
+243-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:85:17-50
+244                    android:host="cct.collagestudio.photocollage.collagemaker"
+245                    android:scheme="fbconnect" />
+245-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:85:23-47
+246            </intent-filter>
+247        </activity>
+248
+249        <provider
+249-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\3c80dae4c2d54307946827ef618a643d\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+250            android:name="com.squareup.picasso.PicassoProvider"
+250-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\3c80dae4c2d54307946827ef618a643d\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+251            android:authorities="collagestudio.photocollage.collagemaker.com.squareup.picasso"
+251-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\3c80dae4c2d54307946827ef618a643d\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+252            android:exported="false" />
+252-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\3c80dae4c2d54307946827ef618a643d\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+253
+254        <activity
+254-->[com.nabinbhandari.android:permissions:3.8] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\b830491a868f5e93426bf8acc52c50ee\jetified-permissions-3.8\AndroidManifest.xml:12:9-14:67
+255            android:name="com.nabinbhandari.android.permissions.PermissionsActivity"
+255-->[com.nabinbhandari.android:permissions:3.8] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\b830491a868f5e93426bf8acc52c50ee\jetified-permissions-3.8\AndroidManifest.xml:13:13-85
+256            android:theme="@style/Permissions.TransparentTheme" />
+256-->[com.nabinbhandari.android:permissions:3.8] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\b830491a868f5e93426bf8acc52c50ee\jetified-permissions-3.8\AndroidManifest.xml:14:13-64
+257
+258        <service
+258-->[com.google.firebase:firebase-crashlytics:18.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\e12aa14063f83d1e7a5eddaf30fcb72c\jetified-firebase-crashlytics-18.0.1\AndroidManifest.xml:15:9-21:19
+259            android:name="com.google.firebase.components.ComponentDiscoveryService"
+259-->[com.google.firebase:firebase-crashlytics:18.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\e12aa14063f83d1e7a5eddaf30fcb72c\jetified-firebase-crashlytics-18.0.1\AndroidManifest.xml:16:13-84
+260            android:directBootAware="true"
+260-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\1d6378c82e0dd49eb8b0a40c9f80d352\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+261            android:exported="false" >
+261-->[com.google.firebase:firebase-crashlytics:18.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\e12aa14063f83d1e7a5eddaf30fcb72c\jetified-firebase-crashlytics-18.0.1\AndroidManifest.xml:17:13-37
+262            <meta-data
+262-->[com.google.firebase:firebase-crashlytics:18.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\e12aa14063f83d1e7a5eddaf30fcb72c\jetified-firebase-crashlytics-18.0.1\AndroidManifest.xml:18:13-20:85
+263                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+263-->[com.google.firebase:firebase-crashlytics:18.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\e12aa14063f83d1e7a5eddaf30fcb72c\jetified-firebase-crashlytics-18.0.1\AndroidManifest.xml:19:17-115
+264                android:value="com.google.firebase.components.ComponentRegistrar" />
+264-->[com.google.firebase:firebase-crashlytics:18.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\e12aa14063f83d1e7a5eddaf30fcb72c\jetified-firebase-crashlytics-18.0.1\AndroidManifest.xml:20:17-82
+265            <meta-data
+265-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\2de63307073e935ea1b24bc47a259414\jetified-firebase-crash-16.2.1\AndroidManifest.xml:26:13-28:85
+266                android:name="com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar"
+266-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\2de63307073e935ea1b24bc47a259414\jetified-firebase-crash-16.2.1\AndroidManifest.xml:27:17-121
+267                android:value="com.google.firebase.components.ComponentRegistrar" />
+267-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\2de63307073e935ea1b24bc47a259414\jetified-firebase-crash-16.2.1\AndroidManifest.xml:28:17-82
+268            <meta-data
+268-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+269                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+269-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+270                android:value="com.google.firebase.components.ComponentRegistrar" />
+270-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+271            <meta-data
+271-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\aed617247fec6e1d093e6229cf12c0a0\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+272                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+272-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\aed617247fec6e1d093e6229cf12c0a0\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+273                android:value="com.google.firebase.components.ComponentRegistrar" />
+273-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\aed617247fec6e1d093e6229cf12c0a0\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+274            <meta-data
+274-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\a8e0c32bae5cf5b51e4025f4fab8fe35\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+275                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+275-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\a8e0c32bae5cf5b51e4025f4fab8fe35\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+276                android:value="com.google.firebase.components.ComponentRegistrar" />
+276-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\a8e0c32bae5cf5b51e4025f4fab8fe35\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+277        </service>
+278
+279        <provider
+279-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\f3c3c4e0fb99f5cc478f474b76b290d2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+280            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+280-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\f3c3c4e0fb99f5cc478f474b76b290d2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+281            android:authorities="collagestudio.photocollage.collagemaker.lifecycle-process"
+281-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\f3c3c4e0fb99f5cc478f474b76b290d2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+282            android:exported="false"
+282-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\f3c3c4e0fb99f5cc478f474b76b290d2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+283            android:multiprocess="true" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+283-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\f3c3c4e0fb99f5cc478f474b76b290d2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+284        <activity
+284-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:48:9-52:64
+285            android:name="com.google.android.gms.ads.AdActivity"
+285-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:49:13-65
+286            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+286-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:50:13-122
+287            android:exported="false"
+287-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:51:13-37
+288            android:theme="@android:style/Theme.Translucent" />
+288-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:52:13-61
+289
+290        <provider
+290-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:54:9-58:39
+291            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+291-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:55:13-76
+292            android:authorities="collagestudio.photocollage.collagemaker.mobileadsinitprovider"
+292-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:56:13-73
+293            android:exported="false"
+293-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:57:13-37
+294            android:initOrder="100" />
+294-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:58:13-36
+295
+296        <service
+296-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:60:9-63:40
+297            android:name="com.google.android.gms.ads.AdService"
+297-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:61:13-64
+298            android:enabled="true"
+298-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:62:13-35
+299            android:exported="false" />
+299-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\026d5aa8f522b13ac3d0e6985ee401fa\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:63:13-37
+300
+301        <provider
+301-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:30:9-36:35
+302            android:name="androidx.work.impl.WorkManagerInitializer"
+302-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:31:13-69
+303            android:authorities="collagestudio.photocollage.collagemaker.workmanager-init"
+303-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:32:13-68
+304            android:directBootAware="false"
+304-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:33:13-44
+305            android:exported="false"
+305-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:34:13-37
+306            android:multiprocess="true" />
+306-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:35:13-40
+307
+308        <service
+308-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:38:9-43:35
+309            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+309-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:39:13-88
+310            android:directBootAware="false"
+310-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:40:13-44
+311            android:enabled="@bool/enable_system_alarm_service_default"
+311-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:41:13-72
+312            android:exported="false" />
+312-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:42:13-37
+313        <service
+313-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:44:9-50:35
+314            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+314-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:45:13-84
+315            android:directBootAware="false"
+315-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:46:13-44
+316            android:enabled="@bool/enable_system_job_service_default"
+316-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:47:13-70
+317            android:exported="true"
+317-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:48:13-36
+318            android:permission="android.permission.BIND_JOB_SERVICE" />
+318-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:49:13-69
+319
+320        <receiver
+320-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:52:9-57:35
+321            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+321-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:53:13-88
+322            android:directBootAware="false"
+322-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:54:13-44
+323            android:enabled="true"
+323-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:55:13-35
+324            android:exported="false" />
+324-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:56:13-37
+325        <receiver
+325-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:58:9-68:20
+326            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+326-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:59:13-106
+327            android:directBootAware="false"
+327-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:60:13-44
+328            android:enabled="false"
+328-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:61:13-36
+329            android:exported="false" >
+329-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:62:13-37
+330            <intent-filter>
+330-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:64:13-67:29
+331                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+331-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:65:17-87
+331-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:65:25-84
+332                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+332-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:66:17-90
+332-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:66:25-87
+333            </intent-filter>
+334        </receiver>
+335        <receiver
+335-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:69:9-79:20
+336            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+336-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:70:13-104
+337            android:directBootAware="false"
+337-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:71:13-44
+338            android:enabled="false"
+338-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:72:13-36
+339            android:exported="false" >
+339-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:73:13-37
+340            <intent-filter>
+340-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:75:13-78:29
+341                <action android:name="android.intent.action.BATTERY_OKAY" />
+341-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:76:17-77
+341-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:76:25-74
+342                <action android:name="android.intent.action.BATTERY_LOW" />
+342-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:77:17-76
+342-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:77:25-73
+343            </intent-filter>
+344        </receiver>
+345        <receiver
+345-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:80:9-90:20
+346            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+346-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:81:13-104
+347            android:directBootAware="false"
+347-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:82:13-44
+348            android:enabled="false"
+348-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:83:13-36
+349            android:exported="false" >
+349-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:84:13-37
+350            <intent-filter>
+350-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:86:13-89:29
+351                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+351-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:87:17-83
+351-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:87:25-80
+352                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+352-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:88:17-82
+352-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:88:25-79
+353            </intent-filter>
+354        </receiver>
+355        <receiver
+355-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:91:9-100:20
+356            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+356-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:92:13-103
+357            android:directBootAware="false"
+357-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:93:13-44
+358            android:enabled="false"
+358-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:94:13-36
+359            android:exported="false" >
+359-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:95:13-37
+360            <intent-filter>
+360-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-52:29
+361                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+361-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:17-79
+361-->[:photoEditor] D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:25-76
+362            </intent-filter>
+363        </receiver>
+364        <receiver
+364-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:101:9-112:20
+365            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+365-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:102:13-88
+366            android:directBootAware="false"
+366-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:103:13-44
+367            android:enabled="false"
+367-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:104:13-36
+368            android:exported="false" >
+368-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:105:13-37
+369            <intent-filter>
+369-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:107:13-111:29
+370                <action android:name="android.intent.action.BOOT_COMPLETED" />
+370-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:41:17-78
+370-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\app\src\main\AndroidManifest.xml:41:25-76
+371                <action android:name="android.intent.action.TIME_SET" />
+371-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:109:17-73
+371-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:109:25-70
+372                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+372-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:110:17-81
+372-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:110:25-78
+373            </intent-filter>
+374        </receiver>
+375        <receiver
+375-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:113:9-122:20
+376            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+376-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:114:13-99
+377            android:directBootAware="false"
+377-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:115:13-44
+378            android:enabled="@bool/enable_system_alarm_service_default"
+378-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:116:13-72
+379            android:exported="false" >
+379-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:117:13-37
+380            <intent-filter>
+380-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:119:13-121:29
+381                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+381-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:120:17-98
+381-->[androidx.work:work-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\727904a2e392cabda35278aa3e2134e9\work-runtime-2.1.0\AndroidManifest.xml:120:25-95
+382            </intent-filter>
+383        </receiver>
+384        <!--
+385         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+386         with the application context. This config is merged in with the host app's manifest,
+387         but there can only be one provider with the same authority activated at any given
+388         point; so if the end user has two or more different apps that use Facebook SDK, only the
+389         first one will be able to use the provider. To work around this problem, we use the
+390         following placeholder in the authority to identify each host application as if it was
+391         a completely different provider.
+392        -->
+393        <provider
+393-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+394            android:name="com.facebook.internal.FacebookInitProvider"
+394-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+395            android:authorities="collagestudio.photocollage.collagemaker.FacebookInitProvider"
+395-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+396            android:exported="false" />
+396-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+397
+398        <receiver
+398-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+399            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+399-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+400            android:exported="false" >
+400-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+401            <intent-filter>
+401-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+402                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+402-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+402-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\01d1af39d46b2b7affd6c063a896d65b\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+403            </intent-filter>
+404        </receiver>
+405        <receiver
+405-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+406            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+406-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+407            android:enabled="true"
+407-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+408            android:exported="false" >
+408-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+409        </receiver>
+410
+411        <service
+411-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+412            android:name="com.google.android.gms.measurement.AppMeasurementService"
+412-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+413            android:enabled="true"
+413-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+414            android:exported="false" />
+414-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+415        <service
+415-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+416            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+416-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+417            android:enabled="true"
+417-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+418            android:exported="false"
+418-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+419            android:permission="android.permission.BIND_JOB_SERVICE" />
+419-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\281888bf50ce58e39b8f77fb9d9ae449\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+420
+421        <receiver
+421-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+422            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+422-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+423            android:exported="true"
+423-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+424            android:permission="com.google.android.c2dm.permission.SEND" >
+424-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+425            <intent-filter>
+425-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+426                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+426-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+426-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+427            </intent-filter>
+428        </receiver>
+429        <!--
+430             FirebaseInstanceIdService performs security checks at runtime,
+431             no need for explicit permissions despite exported="true"
+432        -->
+433        <service
+433-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+434            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+434-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+435            android:exported="true" >
+435-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+436            <intent-filter android:priority="-500" >
+436-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+436-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+437                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+437-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+437-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\77a695731cd4cc66291512e35355c4ea\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+438            </intent-filter>
+439        </service>
+440
+441        <provider
+441-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\1d6378c82e0dd49eb8b0a40c9f80d352\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+442            android:name="com.google.firebase.provider.FirebaseInitProvider"
+442-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\1d6378c82e0dd49eb8b0a40c9f80d352\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+443            android:authorities="collagestudio.photocollage.collagemaker.firebaseinitprovider"
+443-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\1d6378c82e0dd49eb8b0a40c9f80d352\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+444            android:directBootAware="true"
+444-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\1d6378c82e0dd49eb8b0a40c9f80d352\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+445            android:exported="false"
+445-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\1d6378c82e0dd49eb8b0a40c9f80d352\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+446            android:initOrder="100" />
+446-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\1d6378c82e0dd49eb8b0a40c9f80d352\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+447
+448        <activity
+448-->[com.facebook.android:audience-network-sdk:6.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\45a275be7fcd65dbf66463d20f02313c\jetified-audience-network-sdk-6.3.0\AndroidManifest.xml:15:9-19:75
+449            android:name="com.facebook.ads.AudienceNetworkActivity"
+449-->[com.facebook.android:audience-network-sdk:6.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\45a275be7fcd65dbf66463d20f02313c\jetified-audience-network-sdk-6.3.0\AndroidManifest.xml:16:13-68
+450            android:configChanges="keyboardHidden|orientation|screenSize"
+450-->[com.facebook.android:audience-network-sdk:6.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\45a275be7fcd65dbf66463d20f02313c\jetified-audience-network-sdk-6.3.0\AndroidManifest.xml:17:13-74
+451            android:exported="false"
+451-->[com.facebook.android:audience-network-sdk:6.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\45a275be7fcd65dbf66463d20f02313c\jetified-audience-network-sdk-6.3.0\AndroidManifest.xml:18:13-37
+452            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+452-->[com.facebook.android:audience-network-sdk:6.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\45a275be7fcd65dbf66463d20f02313c\jetified-audience-network-sdk-6.3.0\AndroidManifest.xml:19:13-72
+453
+454        <provider
+454-->[com.facebook.android:audience-network-sdk:6.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\45a275be7fcd65dbf66463d20f02313c\jetified-audience-network-sdk-6.3.0\AndroidManifest.xml:21:9-24:40
+455            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+455-->[com.facebook.android:audience-network-sdk:6.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\45a275be7fcd65dbf66463d20f02313c\jetified-audience-network-sdk-6.3.0\AndroidManifest.xml:22:13-75
+456            android:authorities="collagestudio.photocollage.collagemaker.AudienceNetworkContentProvider"
+456-->[com.facebook.android:audience-network-sdk:6.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\45a275be7fcd65dbf66463d20f02313c\jetified-audience-network-sdk-6.3.0\AndroidManifest.xml:23:13-82
+457            android:exported="false" />
+457-->[com.facebook.android:audience-network-sdk:6.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\45a275be7fcd65dbf66463d20f02313c\jetified-audience-network-sdk-6.3.0\AndroidManifest.xml:24:13-37
+458
+459        <activity
+459-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\94d4bbd06b128222ee90261f47d39813\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+460            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+460-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\94d4bbd06b128222ee90261f47d39813\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+461            android:exported="false"
+461-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\94d4bbd06b128222ee90261f47d39813\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+462            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+462-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\94d4bbd06b128222ee90261f47d39813\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+463
+464        <meta-data
+464-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\6ccc93fe3e1ef3dbc0344a24ce553e8f\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+465            android:name="com.google.android.gms.version"
+465-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\6ccc93fe3e1ef3dbc0344a24ce553e8f\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+466            android:value="@integer/google_play_services_version" />
+466-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\6ccc93fe3e1ef3dbc0344a24ce553e8f\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+467
+468        <service
+468-->[androidx.room:room-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\3dea591fb4629f920e3749767f4e69d3\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+469            android:name="androidx.room.MultiInstanceInvalidationService"
+469-->[androidx.room:room-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\3dea591fb4629f920e3749767f4e69d3\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+470            android:exported="false" />
+470-->[androidx.room:room-runtime:2.1.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\3dea591fb4629f920e3749767f4e69d3\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+471        <service
+471-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\5f484be31d3c05a4c06bd6a235ce3827\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+472            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+472-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\5f484be31d3c05a4c06bd6a235ce3827\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+473            android:exported="false" >
+473-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\5f484be31d3c05a4c06bd6a235ce3827\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+474            <meta-data
+474-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\5f484be31d3c05a4c06bd6a235ce3827\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+475                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+475-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\5f484be31d3c05a4c06bd6a235ce3827\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+476                android:value="cct" />
+476-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\5f484be31d3c05a4c06bd6a235ce3827\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+477        </service>
+478        <service
+478-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\df39bf8b405c9ae47dac72e9a475e212\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+479            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+479-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\df39bf8b405c9ae47dac72e9a475e212\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+480            android:exported="false"
+480-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\df39bf8b405c9ae47dac72e9a475e212\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+481            android:permission="android.permission.BIND_JOB_SERVICE" >
+481-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\df39bf8b405c9ae47dac72e9a475e212\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+482        </service>
+483
+484        <receiver
+484-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\df39bf8b405c9ae47dac72e9a475e212\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+485            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+485-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\df39bf8b405c9ae47dac72e9a475e212\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+486            android:exported="false" />
+486-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Muhammad Usman\.gradle\caches\transforms-2\files-2.1\df39bf8b405c9ae47dac72e9a475e212\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+487    </application>
+488
+489</manifest>

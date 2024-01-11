@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Main Apps Repo\\Base Codes\\finzdev-f_app_col1_collagemaker-15d9f5431eb7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\Main Apps Repo\\Base Codes\\finzdev-f_app_col1_collagemaker-15d9f5431eb7\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "19,25,27",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "663,965,1011",
+                        "endLines": "23,25,29",
+                        "endColumns": "12,44,12",
+                        "endOffsets": "959,1005,1166"
+                    },
+                    "to": {
+                        "startLines": "2,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,356,400",
+                        "endLines": "6,7,10",
+                        "endColumns": "12,43,12",
+                        "endOffsets": "351,395,555"
+                    }
+                }
+            ]
+        }
+    ]
+}

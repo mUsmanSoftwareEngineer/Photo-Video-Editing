@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">357861191945-7o72hmh3utqnnb2qah0g400u5d1knprf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">357861191945</string>
+    <string name="google_api_key" translatable="false">AIzaSyDQmGcLYYhPffp7XYPNHiGgzVLYPlGYHiI</string>
+    <string name="google_app_id" translatable="false">1:357861191945:android:30502139a59f29cab823d8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDQmGcLYYhPffp7XYPNHiGgzVLYPlGYHiI</string>
+    <string name="google_storage_bucket" translatable="false">collage-maker-30c63.appspot.com</string>
+    <string name="project_id" translatable="false">collage-maker-30c63</string>
+</resources>

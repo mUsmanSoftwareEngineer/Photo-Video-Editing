@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Main Apps Repo\\Base Codes\\finzdev-f_app_col1_collagemaker-15d9f5431eb7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Main Apps Repo\\Base Codes\\finzdev-f_app_col1_collagemaker-15d9f5431eb7\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "4,6,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "291,399,349",
+                        "endColumns": "57,50,49",
+                        "endOffsets": "344,445,394"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,113,164",
+                        "endColumns": "57,50,49",
+                        "endOffsets": "108,159,209"
+                    }
+                },
+                {
+                    "source": "D:\\Main Apps Repo\\Base Codes\\finzdev-f_app_col1_collagemaker-15d9f5431eb7\\photoEditor\\build\\intermediates\\packaged_res\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "70",
+                        "endOffsets": "121"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "214",
+                        "endColumns": "70",
+                        "endOffsets": "280"
+                    }
+                }
+            ]
+        }
+    ]
+}

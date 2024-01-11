@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dauroi.photoeditor" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:6:5-66
+9-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:6:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:7:5-78
+10-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:7:22-76
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:8:5-67
+11-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:8:22-65
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:9:5-80
+12-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:9:22-78
+13
+14    <application
+14-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:11:5-52:19
+15        android:allowBackup="true"
+15-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:12:9-35
+16        android:requestLegacyExternalStorage="true" >
+16-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:13:9-52
+17        <activity
+17-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:15:9-20:20
+18            android:name="dauroi.photoeditor.ui.activity.StoreActivity"
+18-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:16:13-72
+19            android:configChanges="orientation|keyboardHidden|screenSize"
+19-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:17:13-74
+20            android:label="@string/photo_editor_store_items"
+20-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:18:13-61
+21            android:screenOrientation="portrait" >
+21-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:19:13-49
+22        </activity>
+23        <activity
+23-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:21:9-26:20
+24            android:name="dauroi.photoeditor.ui.activity.CameraActivity"
+24-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:22:13-73
+25            android:configChanges="orientation|keyboardHidden|screenSize"
+25-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:23:13-74
+26            android:label="@string/photo_editor_camera"
+26-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:24:13-56
+27            android:screenOrientation="landscape" >
+27-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:25:13-50
+28        </activity>
+29        <activity
+29-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:27:9-32:20
+30            android:name="dauroi.photoeditor.ui.activity.StoreItemDetailActivity"
+30-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:28:13-82
+31            android:configChanges="orientation|keyboardHidden|screenSize"
+31-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:29:13-74
+32            android:label="@string/photo_editor_store_items"
+32-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:30:13-61
+33            android:screenOrientation="portrait" >
+33-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:31:13-49
+34        </activity>
+35        <activity
+35-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:33:9-39:20
+36            android:name="dauroi.photoeditor.ui.activity.ImageProcessingActivity"
+36-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:34:13-82
+37            android:configChanges="orientation|keyboardHidden|screenSize"
+37-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:35:13-74
+38            android:label="@string/photo_editor_app_name"
+38-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:36:13-58
+39            android:largeHeap="true"
+39-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:37:13-37
+40            android:screenOrientation="portrait" >
+40-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:38:13-49
+41        </activity>
+42        <activity
+42-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:40:9-45:20
+43            android:name="dauroi.photoeditor.ui.activity.ViewImageActivity"
+43-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:41:13-76
+44            android:configChanges="orientation|keyboardHidden|screenSize"
+44-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:42:13-74
+45            android:label="@string/photo_editor_app_name"
+45-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:43:13-58
+46            android:screenOrientation="portrait" >
+46-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:44:13-49
+47        </activity>
+48
+49        <receiver android:name="dauroi.photoeditor.receiver.NetworkStateReceiver" >
+49-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:47:9-51:20
+49-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:47:19-82
+50            <intent-filter>
+50-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:48:13-50:29
+51                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+51-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:49:17-78
+51-->D:\Main Apps Repo\Base Codes\finzdev-f_app_col1_collagemaker-15d9f5431eb7\photoEditor\src\main\AndroidManifest.xml:49:25-76
+52            </intent-filter>
+53        </receiver>
+54    </application>
+55
+56</manifest>

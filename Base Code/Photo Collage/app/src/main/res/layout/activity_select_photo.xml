@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/finz_bg_screen"
+                android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/toplayar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/navgradient">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Photos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/gnt_white"
+            android:layout_gravity="center_vertical"
+            android:gravity="center|center_vertical"
+            android:paddingRight="110dp"
+            android:paddingLeft="110dp"
+            />
+        <TextView
+            android:id="@+id/iv_back"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:background="@drawable/ripple"
+            android:layout_gravity="start|center_vertical"
+            android:gravity="center"
+            android:drawablePadding="0dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="6dp"
+
+            android:textColor="@android:color/white"
+            android:onClick="goBack"
+            android:paddingRight="14dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/action_done"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|center_vertical"
+            android:gravity="center"
+            android:text="Next"
+            android:drawablePadding="8dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="16dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/ripple"/>
+
+
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/selectedImageLayout"
+        android:layout_below="@+id/toplayar"/>
+
+    <LinearLayout
+        android:id="@+id/selectedImageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:background="@drawable/navgradient">
+            <TextView
+
+                android:id="@+id/imageCountView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:text="@string/please_select_photo"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/selectedImageRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"/>
+        <FrameLayout
+            android:id="@+id/adsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
